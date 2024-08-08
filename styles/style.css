@@ -1,0 +1,271 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+
+
+
+
+/* hero section style start here */
+.hero-section{ 
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+
+/* navber style start here */
+.navber{
+    max-width: 1040px;
+    height: 48px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+    
+}
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.banner-btn-container{
+    display: flex;
+}
+.nav-btn-home{
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+
+    background: rgb(230, 83, 60);
+}
+.nav-about-btn{
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 47px;
+    color: rgb(255, 255, 255);
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+.hambuger-menu-btn{
+    display: none;
+}
+.alada{
+    font-family: 'Miama', sans-serif;
+    line-height: 5px;
+} 
+
+
+/* banner style start here */
+.banner{
+    max-width: 1060px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.banner-content{
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-bottom: 48px;
+}
+.banner-content-title{
+    font-size: 4.4rem;
+    font-weight: 900;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+.banner-content-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 28px auto; 
+}
+.banner-btn{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+#banner-btn-2{
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 9px;
+}
+
+
+/* banner image style start here */
+.banner-image{
+    width: 40%;
+    border: 1px solid red;
+}
+.banner-image img{
+    width: 100%;
+}
+
+
+/* main section style start here */
+/* *************************************************** */
+
+/* habits section style sart here */
+.habits-containe{        
+    max-width: 1044px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+
+
+/* habits content style start */
+.habits-conent{
+    max-width: 671px;
+    border: 1px solid red;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.habits-conent-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 14px;
+    color: rgb(255, 255, 255);
+}
+.habits-conent-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+}
+/* habits content style end */
+
+
+
+
+/* habits card style start */
+.habits-card-conainer{
+    display: flex;
+
+}
+.habits-card{
+    max-width: 231px; 
+    text-align: center;  
+    /* border: 1px solid red; */
+    padding: 20px;
+    padding-top: 0;
+    margin: 0 auto;
+    
+    
+}
+.habits-card img{
+    max-width: 100%;
+    border-radius: 50%;
+    /* margin-top: 40px; */
+}
+.card-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.card-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1px;
+    padding: 0px 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

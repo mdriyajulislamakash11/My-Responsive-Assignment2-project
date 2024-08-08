@@ -1,0 +1,53 @@
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    ul li{
+        display: none;
+    }
+    .hambuger-menu-btn{
+        display: block;
+        color: aliceblue;
+        margin-right: 16px;
+    }
+
+    .banner-content, .banner-image{
+    width: 100%;
+    border: 1px solid red;
+    }
+    .banner-content-title{
+        font-size: 36px;
+        font-weight: 900;
+        width: 75%;
+    }
+
+    .banner-content-description{
+        max-width: 70%;
+        margin: 28px 0;
+    }
+    .banner-btn-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .banner-btn{
+        padding: 16px 16px;
+        
+    }
+
+    /* main section syle start */
+    .habits-card-conainer{
+        flex-direction: column;
+    }
+    .habits-conent-title{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .habits-card{
+        margin-top: 40px;
+    }
+    .banner{
+        margin-bottom: 1px;
+    }
+}
