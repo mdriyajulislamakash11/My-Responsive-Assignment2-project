@@ -65,7 +65,7 @@ nav ul li{
     line-height: 5px;
 } 
 
-
+/* **************************************************** */
 /* banner style start here */
 .banner{
     max-width: 1060px;
@@ -112,20 +112,23 @@ nav ul li{
 /* banner image style start here */
 .banner-image{
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .banner-image img{
     width: 100%;
 }
+/* banner style start here */
+/* ************************************************** */
 
 
-/* main section style start here */
+
 /* *************************************************** */
+/* main section style start here */
 
 /* habits section style sart here */
 .habits-containe{        
     max-width: 1044px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 }
 
@@ -134,7 +137,7 @@ nav ul li{
 /* habits content style start */
 .habits-conent{
     max-width: 671px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     text-align: center;
     margin-bottom: 58px;
@@ -190,23 +193,331 @@ nav ul li{
     margin-bottom: 1px;
     padding: 0px 1px;
 }
+/* main section style start here */
+/* ******************************************************* */
+
+
+/* ***************************************************** */
+/* Run an Extra Mile Easily section style start here*/
+.run-container{
+    max-width: 1060px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+/* Run an Extra Mile Easily run-content style start here*/
+.run-content{
+    width:45%;
+    height: 80%;
+    /* border: 1px solid red; */
+    margin: 40px 54px;
+}
+.run-content-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+    margin-top: 1px;
+}
+.run-content-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+.run-content-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    width: 224px;
+}
+
+
+/* Run an Extra Mile Easily images  style start here*/
+.run-images{
+    max-width: 35%;
+    /* border: 1px solid red; */
+    margin: 30px 32px 29px 54px;
+}
+.run-images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+/* Run an Extra Mile Easily run-content style end here*/
+/* ************************************************** */
+
+
+/* *********************************************** */
+/* BMI Calculator section style start here  */
+.bmi-container{
+    max-width: 671px;
+    height: 120px;
+    /* border: 2px solid red; */
+    margin: 90px auto;
+    background-color: black;
+    padding-left: 10px;
+}
+
+.bmi-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/* ********************************************************* */
+/* BMI Calculator Chart second part style start here */
+
+.second-part-bmi{
+    max-width: 1440px;
+    min-height: 487px;
+    border: 2px solid;
+    margin: 0 auto;
+    margin-bottom: 88px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.part2-bmi-title{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 52px;
+    padding-bottom: 40px;
+}
+ 
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+td{
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: 1px solid ;
+    padding: 13px 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.th{  
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+/* BMI er second part er second box style start here */
+
+.second-box-part2-bmi{
+    max-width: 577px;
+    height: 386px;
+    border: 2px solid red;
+}
+
+.part2-bmi-title2{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+
+.part2-bmi-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+}
+/* BMI Calculator Chart second part style end here */
+/* ********************************************************* */
 
 
 
+/* ************************************************** */
+/* Meet-container section style start here */
+.Meet-container{
+    max-width: 1060px;
+    min-height: 782px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 90px;
+}
+
+.meet-content{
+    max-width: 671px;    
+    min-height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.meet-content-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+    
+}
+
+.meet-content-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 12px;
+}
+
+/* meet images box style start here */
+
+.meet-img{
+    /* width: 326.67px; */
+    height: 272px;
+    /* border: 2px solid red; */
+}
+
+.meet-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+
+/* trainer introdaction section */
+.meet-images-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 60px;
+    /* border: 2px solid red; */
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    
+}
+.trainer-intro{
+    width: 179px;
+    position: relative;
+    top: -65px;
+    margin-left: 10px;
+}
+
+.lumbo-taxt{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.ciknu-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
 
 
 
+/* ******************************************************** */
+/* footer section style start here  */
+
+.footer-container{
+    max-width: 1440px;
+    min-height: 489px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content{
+    max-width: 1059px;
+    min-height: 249px;
+    margin: 66px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 66px;
+    
+}
+
+.hr{
+    margin: 0 auto;
+    max-width: 1059px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+/* **************************** */
+/* footer box style start here */
+
+/* first box style relatetd */
+.foot-box1{
+    
+    max-width: 443px;
+    height: 176px;
+    /* border: 2px solid red; */
+}
+
+.first-box-title{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+
+.first-box-description{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+}
 
 
+/* second box style related */
+.foot-box2{
+    width: 185px;
+    height: 249px;
+    /* border: 2px solid red; */
+}
+.second-box-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
 
+.second-box-item{
+    font-size: 23px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
 
+/* third box style related */
+.foot-box3{
+    width: 185px;
+    height: 249px;
+    /* border: 2px solid red; */
+}
 
-
-
-
-
-
-
+/* ******************************************************************** */
+/* this is footer end */
+.footer-end{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 35px auto;
+}
 
 
 

@@ -15,7 +15,7 @@
 
     .banner-content, .banner-image{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     }
     .banner-content-title{
         font-size: 36px;
@@ -35,8 +35,8 @@
         padding: 16px 16px;
         
     }
-
-    /* main section syle start */
+    /* ********************************** */
+    /* main section syle start here*/
     .habits-card-conainer{
         flex-direction: column;
     }
@@ -50,4 +50,73 @@
     .banner{
         margin-bottom: 1px;
     }
+    /* main section syle end here*/
+    /* **************************************** */
+
+
+    /* ********************************************* */
+    /* Run an Extra Mile Easily style start here*/
+    .run-container{
+        flex-direction: column;
+        margin-top: 66px;
+    }
+    .run-content{
+        width:74%;             
+    }
+    .run-content-title{
+        font-size: 2rem;
+    }
+    .run-images{
+        max-width: 74%;
+    }
+    .run-content-btn{
+        max-width: 310px;
+    }
+    /* Run an Extra Mile Easily style end here*/
+    /* ********************************************* */
+
+
+    /* ******************************** */
+    /* BMI Calculator stye start here */
+    .bmi-title{
+        font-size: 2rem;
+    }
+    .second-part-bmi{
+        flex-direction: column;
+    }
+    .frist-box-part2-bmi{
+        width: 100%;
+    }
+    /* BMI Calculator stye end here */
+    /* ******************************** */
+
+
+    /* *********************************************** */
+    /* Meet Our Team section style start here */
+    .meet-images-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .meet-content-title{
+        font-size: 2rem;
+    }
+    /* Meet Our Team section style end here */
+    /* *********************************************** */
+
+
+    /* *********************************************** */
+    /* footer section style start here */
+    .footer-content{
+        flex-direction: column;
+    }
+    .foot-box1{
+        margin-bottom: 30px;
+    }
+    .foot-box2, .foot-box3{
+        margin-top: 30px;
+    }
+    .foot-box3{
+        margin-bottom: 30px;
+    }
+
 }
+   
