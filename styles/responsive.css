@@ -117,6 +117,59 @@
     .foot-box3{
         margin-bottom: 30px;
     }
+/* *************************************** */
+
+
+/* ****************************** */
+    .second-box-part2-bmi{
+        max-width: 354px;
+    }
+    .part2-bmi-title2{
+        font-size: 1rem;
+    }
+    .part2-bmi-description{
+        font-size: 0,9rem;
+    }
+    .bmi-calculator-container input,
+    .bmi-calculator-container select{
+    font-size: 10px;
+    }
+/* ************************************** */
+
+
+/* *************************************** */
+/* badg responsive style start here */
+
+/* second badg style related */
+.banner-badge-2{
+    width: 145.91px;
+    height: 74.09px;
+    top: 60px;
+    right: 7px;
+}
+.bdg-2-big-text{
+    font-size: 30.24px;
+    font-weight: 900;
+    padding: 0;
+}
+.bdg-2-small-text{
+    padding: 0;
+}
+
+/* frist badg style related */
+.banner-badge-1{
+    width: 170.74px;
+    height: 72.58px;
+    padding: 20px 23px;
+    position: absolute;
+    bottom: 250px;
+    left: 11px;
+}
+.bdg-1-big-text{
+    font-size: 18.14px;
+}
+.bdg-1-small-text{
+    font-size: 12.1px;
 
 }
-   
+}  

@@ -33,9 +33,7 @@ body{
     font-size: 2.6rem;
     font-weight: 800;
 }
-.banner-btn-container{
-    display: flex;
-}
+
 .nav-btn-home{
     padding: 8px 20px 8px 20px;
     border-radius: 46px;
@@ -94,12 +92,16 @@ nav ul li{
     color: rgba(255, 255, 255, 0.5);
     margin: 28px auto; 
 }
+.banner-btn-container{
+    display: flex;
+}
 .banner-btn{
     font-size: 1.1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
     padding: 16px 40px 16px 40px;
     border-radius: 42px;
+    border: none;
     background: rgb(230, 83, 60);
 }
 #banner-btn-2{
@@ -107,16 +109,90 @@ nav ul li{
     border: 1px solid white;
     margin-left: 9px;
 }
+/* banner style end here  */
 
 
 /* banner image style start here */
 .banner-image{
     width: 40%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    position: relative;
 }
 .banner-image img{
     width: 100%;
 }
+/* ***************************************** */
+/* banner badge section style start here*/
+
+/* frist badge style start here */
+.banner-badge-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    text-align: start;
+    padding: 20px 23px;
+    position: absolute;
+    bottom: 100px;
+    left: -110px;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+.bdg-1-big-text{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+}
+.bdg-1-small-text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+/* frist badge style end here */
+.banner-badge-2{
+    width: 193px;
+    height: 98px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 190px;
+    right: -75px;
+    color: #fff;
+    text-align: start;
+}
+.bdg-2-big-text{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding: 17px 63px 41px 24px;
+}
+.bdg-2-small-text{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    padding: 5px 23px 16px 24px;
+}
+/* second badge style start here */
+
+/* banner badge section style end here*/
+/* ****************************************** */
+
+
 /* banner style start here */
 /* ************************************************** */
 
@@ -246,11 +322,13 @@ nav ul li{
     max-width: 35%;
     /* border: 1px solid red; */
     margin: 30px 32px 29px 54px;
+    
 }
 .run-images img{
     width: 100%;
     height: 100%;
     border-radius: 18px;
+    
 }
 /* Run an Extra Mile Easily run-content style end here*/
 /* ************************************************** */
@@ -327,8 +405,8 @@ td{
 
 .second-box-part2-bmi{
     max-width: 577px;
-    height: 386px;
-    border: 2px solid red;
+    /* height: 386px; */
+    /* border: 2px solid red; */
 }
 
 .part2-bmi-title2{
@@ -345,6 +423,43 @@ td{
     margin-bottom: 34px;
 }
 /* BMI Calculator Chart second part style end here */
+/* ******************************************************** */
+
+
+/* **************************************************** */
+.bmi-calculator-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 12px;
+}
+.bmi-calculator-container input,
+.bmi-calculator-container select{
+    padding: 18px 0 18px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #211b1b;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    border-radius: 10px;
+}
+.bmi-calculator-container select{
+    color: gray;
+}
+#second-select{
+    grid-column: span 2;
+    margin-bottom: 27px;
+}
+.btn-calcilator{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
 /* ********************************************************* */
 
 
@@ -518,26 +633,12 @@ td{
     color: rgba(255, 255, 255, 0.5);
     margin: 35px auto;
 }
+/* ***************************************** */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 
+/* qna section style start here */
+/* *************************************** */
 
 
 
