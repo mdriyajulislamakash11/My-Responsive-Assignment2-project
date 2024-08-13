@@ -336,6 +336,10 @@ nav ul li{
 
 /* *********************************************** */
 /* BMI Calculator section style start here  */
+.bmi-wrapper{
+   
+    background: rgba(255, 255, 255, 0.1);
+}
 .bmi-container{
     max-width: 671px;
     height: 120px;
@@ -360,14 +364,17 @@ nav ul li{
 
 /* ********************************************************* */
 /* BMI Calculator Chart second part style start here */
-
+.bmi-wrapper{
+   
+    background: rgba(255, 255, 255, 0.1);
+}
 .second-part-bmi{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     min-height: 487px;
     border: 2px solid;
     margin: 0 auto;
     margin-bottom: 88px;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -554,7 +561,7 @@ td{
     min-height: 489px;
     /* border: 2px solid red; */
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
 }
 
 .footer-content{
