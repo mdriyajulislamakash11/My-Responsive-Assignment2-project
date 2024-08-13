@@ -115,7 +115,7 @@ nav ul li{
 /* banner image style start here */
 .banner-image{
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
 }
 .banner-image img{
