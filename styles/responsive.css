@@ -172,4 +172,18 @@
     font-size: 12.1px;
 
 }
+/* ***************************** */
+
+
+/* *************************** */
+.plan-cards-container{
+   flex-direction: column;
+}
+.card-box{
+    color: #fff;
+    max-width: 90%;
+    margin-top: 20px;
+
+}
+
 }  

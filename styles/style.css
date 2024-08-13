@@ -644,21 +644,78 @@ td{
 
 
 /* 
-/* qna section style start here */
+/* challeng section style start here */
 /* *************************************** */
+.plan-container{
+    color: #fff;
+    max-width: 1059px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.plan-cards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.card-box{
+    color: #fff;
+    max-width: 300px;
+    /* border: 10px solid rgb(71, 66, 66); */
+    border-radius: 18px;
+    background-color: rgba(55, 55, 55, 0.946);
+
+}
+
+.card-box:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.second-li{
+    list-style: none;
+    margin-top: 10px;
+    padding-right: 30px;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card-title{
+    font-size: 2rem;
+    padding: 0 30px;
+}
+.price-doller{
+    color: tomato;
+    font-size: 2rem;
+}
+
+.time{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+.plan-title{
+    font-size: 2.5rem;
+}
+.plan-btn{
+    padding: 16px 40px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+header, main, footer{
+    margin: 0 10px;
+    /* border: 1px solid red; */
+}
 
 
 
