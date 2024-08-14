@@ -259,6 +259,7 @@ nav ul li{
 .card-title{
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
+    /* border: 1px solid red; */
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -671,7 +672,8 @@ td{
 }
 
 .card-box:hover{
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: #40443a;
     
 }
 
@@ -684,7 +686,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
 }
 
-.card-title{
+.card-plan-title{
     font-size: 2rem;
     padding: 0 30px;
 }
@@ -712,10 +714,6 @@ td{
 }
 
 
-header, main{
-    margin: 0 1px;
-    /* border: 1px solid red; */
-}
 
 
 
