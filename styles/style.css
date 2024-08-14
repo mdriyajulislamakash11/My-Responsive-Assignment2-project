@@ -8,11 +8,11 @@ body{
 
 
 
-
 /* hero section style start here */
 .hero-section{ 
     margin: 0 auto;
     background-color: black;
+    /* border: 1px solid red; */
 }
 
 
@@ -26,6 +26,7 @@ body{
     justify-content: space-between;
     align-items: center;
     /* border: 1px solid blue; */
+
     
 }
 .logo{
@@ -73,6 +74,7 @@ nav ul li{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+
 }
 
 .banner-content{
